@@ -13,11 +13,12 @@ footer {
   margin: 1.25em;
   padding-inline: 1.2em;
   padding-block: 2.4em;
+  box-shadow: rgb(0 0 0 / 63%) 0px 3px 3px 2px;
 }
 
 header,
 footer {
-  background-color: #377d98;
+  background: linear-gradient(180deg, rgba(69, 154, 191, 1) 0%, rgba(40, 95, 116, 1) 100%);
   color: white;
   text-align: center;
 }
@@ -36,6 +37,7 @@ h2 {
 
 p {
   padding-block: 1.5em;
+  font-size: 1.2em;
 }
 
 .nav,
@@ -52,6 +54,19 @@ p {
 
 main {
   background-color: white;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+main ol {
+  list-style-type: decimal;
+}
+
+.ini figcaption {
+  color: rgb(151, 151, 151);
+  font-size: 1.2em;
 }
 
 header img {
