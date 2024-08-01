@@ -52,6 +52,10 @@ p {
   line-height: 1.5em;
 }
 
+header img {
+  width: 250px;
+}
+
 main {
   background-color: white;
 }
@@ -69,10 +73,6 @@ main ol {
   font-size: 1.2em;
 }
 
-header img {
-  width: 250px;
-}
-
 .correlati div,
 .email {
   background-color: rgb(160, 160, 160);
@@ -83,4 +83,23 @@ header img {
 .correlati h1,
 .email h1 {
   text-align: center;
+}
+
+.tab p {
+  text-align: center;
+  padding-bottom: 2px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+th {
+  background-color: aqua;
+  text-align: center;
+  border-inline: 1.5px solid rgb(255, 255, 255);
+}
+
+td,
+th {
+  padding: 1.2em;
+  border-block: 1px solid gray;
 }
