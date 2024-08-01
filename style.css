@@ -38,6 +38,7 @@ h2 {
 p {
   padding-block: 1.5em;
   font-size: 1.2em;
+  line-height: 1.35em;
 }
 
 .nav,
@@ -93,13 +94,19 @@ main ol {
 }
 
 th {
-  background-color: aqua;
+  background-color: #4567be;
   text-align: center;
-  border-inline: 1.5px solid rgb(255, 255, 255);
+  border-inline: 1px solid rgb(255, 255, 255);
+  color: white;
 }
 
 td,
 th {
   padding: 1.2em;
-  border-block: 1px solid gray;
+  border-block: 1px solid #e4e6e7;
+  text-align: center;
+}
+
+tbody tr:nth-of-type(2n + 1) {
+  background-color: #f1f1f1;
 }
